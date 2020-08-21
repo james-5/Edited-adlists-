@@ -1,10 +1,3 @@
-!
-! Section contains list of advertising networks
-!
-! The rules with hints are at the end of file
-!
-! Chinese adservers (for future AdGuard Chinese filter)
-!START: Chinese ad servers
 tngmn.com
 rz261.cn
 mq.d6s3mov.cn
@@ -156,10 +149,6 @@ itadapi.ithome.com.tw
 t.njzrxx.xyz
 f.zgbmw.com.cn
 83.locksmaker.com.cn
-!END: Chinese ad servers
-!
-!! https://a.bestcontentitem.top/warp/*?r=
-!
 uruswan.com
 lorybnfh.com
 topblockchainsolutions.nl
@@ -2934,43 +2923,3 @@ zaperplop.info
 zedo.com
 zeti.com
 zptncsir.com
-!+ NOT_OPTIMIZED
-ew740.cn
-!+ NOT_OPTIMIZED
-mqgpo.com
-!+ NOT_OPTIMIZED
-dianomi.com
-!+ NOT_OPTIMIZED
-xk0x.cn
-!+ NOT_OPTIMIZED
-olc0.cn
-!
-! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/142
-stripe.rs-1028-a.com
-!
-! Ads reinjection (For apps only)
-!+ NOT_PLATFORM(windows, mac, android)
-piguiqproxy.com,badfilter
-!+ NOT_OPTIMIZED PLATFORM(windows, mac, android)
-amgload.net
-!+ NOT_PLATFORM(windows, mac, android)
-amgload.net,badfilter
-!+ NOT_OPTIMIZED PLATFORM(windows, mac, android)
-hub.fghtem.com
-!+ NOT_PLATFORM(windows, mac, android)
-rcdn.pro,badfilter
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/31688
-@@amgload.net/z|$domain=sinoptik.ua|gismeteo.ua
-!
-!#if (adguard_ext_safari  adguard_app_ios  adguard_ext_android_cb)
-analyticsq.com
-tsastrmq.com
-d71e6dd31a026d45.com$popup
-xdbwc.com
-cb8717377086c72d.comgo.mobiprotg.comadrunnr.comlarge-format.netnovember-lax.com!#endif
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/23271
-samsungads.com
-! https://github.com/AdguardTeam/AdGuardHome/issues/1046
-samsungtvads.com
