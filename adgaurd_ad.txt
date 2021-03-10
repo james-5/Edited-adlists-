@@ -38837,3 +38837,4 @@ vrv-eec.etp-prod.com
 ytstatic.l.google.com
 api.segment.io
 segment.io
+a.adtng.com
