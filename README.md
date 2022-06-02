@@ -1,17 +1,14 @@
 # Edited-adlists
-this is a simple blocklist i put together to use some google servises and block moste google adds
 
-use the following links to add the lists
+this is a simple blocklist i put together based off of other blocklists for using with my pihole. I removed duplicate domains from each list so they dont overlap of course these lists arnt exsactly mine i just modifyed them.
+
+to use these lists just add these urls to your adlist.
 
 https://raw.githubusercontent.com/james-5/Edited-adlists-/master/adgaurd_ad.txt
 
 https://raw.githubusercontent.com/james-5/Edited-adlists-/master/easylist
 
 
-to ues the cruncyroll blacklist you must manualy add the links to the blacklist on the pihole and add this to the whitelist
 
-5fd74.v.fwmrm.net
 
-a-vrv.akamaized.net
-
-or you can restore your pihole with my backup
+or you can restore your pihole with my backup.
